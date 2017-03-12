@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
                         Intent intent = new Intent("com.example.codept.githubproj.login");
                         startActivity(intent);
 
-
+//fdfodofondsgnkdnfkgn eo trh trbt erubt britbribibr bibijtbrjbrkgbb
                     }
                 }
         );
