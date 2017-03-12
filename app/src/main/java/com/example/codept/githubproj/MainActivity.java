@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onClick(View v) {
                         Intent intent = new Intent("com.example.codept.githubproj.login");
                         startActivity(intent);
+//jvjguyfguyg yu  gyu gg yu uy yu f fufu fyfy  f ytytdyvhvjiuiuh b uuvg gc g tyd gc 
 
 //fdfodofondsgnkdnfkgn eo trh trbt erubt britbribibr bibijtbrjbrkgbb
                     }
