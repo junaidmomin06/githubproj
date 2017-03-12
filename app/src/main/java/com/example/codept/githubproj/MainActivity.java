@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static Button btn;
+    private static Button bt;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,9 +18,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openLogin() {
-        btn = (Button)findViewById(R.id.button);
+        bt = (Button)findViewById(R.id.button);
 
-        btn.setOnClickListener(
+        bt.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -34,9 +34,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
         public void openRegister(){
-        btn = (Button) findViewById(R.id.button2);
+        bt = (Button) findViewById(R.id.button2);
 
-        btn.setOnClickListener(
+        bt.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
